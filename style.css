@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #f8f9fa;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+#themeToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* Projects */
+.projects {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.social-links a {
+    font-size: 2em;
+    margin: 0 10px;
+    color: inherit;
+    text-decoration: none;
+}
